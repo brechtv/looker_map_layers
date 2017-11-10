@@ -1,9 +1,11 @@
+connection: "thelook"
+
 ################################################
 # GLOBAL                                       #
 # Match on FULL CONTINENT NAME e.g. "Asia"     #
 ################################################
 
-map_layer: world-continents {
+map_layer: world_continents {
   file: "world-continents.json"
   property_key: "continent"
 }
@@ -12,12 +14,12 @@ map_layer: world-continents {
 # Match on FULL COUNTRY NAME e.g. "Asia"       #
 ################################################
 
-map_layer: world-countries-sans-antarctica {
+map_layer: world_countries_sans_antarctica {
   file: "world-countries-sans-antarctica.json"
   property_key: "name"
 }
 
-map_layer: world-countries {
+map_layer: world_countries {
   file: "world-countries.json"
   property_key: "name"
 }
@@ -42,12 +44,12 @@ map_layer: europe {
   property_key: "geounit"
 }
 
-map_layer: north-america {
+map_layer: north_america {
   file: "north-america.json"
   property_key: "geounit"
 }
 
-map_layer: south-america {
+map_layer: south_america {
   file: "south-america.json"
   property_key: "geounit"
 }
@@ -65,7 +67,7 @@ map_layer: oceania {
 # Match on province name (e.g. 'West Flanders')#
 ################################################
 
-map_layer: belgium-provinces {
+map_layer: belgium_provinces {
   file: "belgium-provinces.json"
   property_key: "NAME_1"
 }
@@ -74,7 +76,7 @@ map_layer: belgium-provinces {
 # Match on country name (e.g. 'Netherlands')   #
 ################################################
 
-map_layer: benelux-countries {
+map_layer: benelux_countries {
   file: "benelux-countries.json"
   property_key: "NAME_ISO"
 }
@@ -83,7 +85,7 @@ map_layer: benelux-countries {
 # Match on prov name (e.g. 'Xinjiang Uygur')   #
 ################################################
 
-map_layer: china-provinces {
+map_layer: china_provinces {
   file: "china-provinces.json"
   property_key: "NAME_1"
 }
@@ -92,7 +94,7 @@ map_layer: china-provinces {
 # Match on province name (e.g. 'Pardubický')   #
 ################################################
 
-map_layer: czech-republic-regions {
+map_layer: czech_republic_regions {
   file: "czech-republic-regions.json"
   property_key: "NAME_1"
 }
@@ -101,7 +103,7 @@ map_layer: czech-republic-regions {
 # Match on state name (e.g. 'Bayern')          #
 ################################################
 
-map_layer: dach-states {
+map_layer: dach_states {
   file: "dach-states.json"
   property_key: "NAME_1"
 }
@@ -122,7 +124,7 @@ map_layer: dach {
 # Match on county name (e.g. 'Ringkøbing')     #
 ################################################
 
-map_layer: denmark-counties {
+map_layer: denmark_counties {
   file: "denmark-counties.json"
   property_key: "NAME_1"
 }
@@ -131,7 +133,7 @@ map_layer: denmark-counties {
 # Match on province name (e.g. 'Lapland')      #
 ################################################
 
-map_layer: finland-provinces {
+map_layer: finland_provinces {
   file: "finland-provinces.json"
   property_key: "NAME_1"
 }
@@ -140,7 +142,7 @@ map_layer: finland-provinces {
 # Match on region name (e.g. 'Lapland')        #
 ################################################
 
-map_layer: finland-regions {
+map_layer: finland_regions {
   file: "finland-regions.json"
   property_key: "NAME_1"
 }
@@ -149,7 +151,7 @@ map_layer: finland-regions {
 # Match on dept. name (e.g. 'Nord')            #
 ################################################
 
-map_layer: fr-departments {
+map_layer: fr_departments {
   file: "fr-departments.json"
   property_key: "NAME_2"
 }
@@ -158,7 +160,7 @@ map_layer: fr-departments {
 # Match on region name (e.g. 'Dessau')         #
 ################################################
 
-map_layer: germany-regions {
+map_layer: germany_regions {
   file: "germany-regions.json"
   property_key: "NAME_2"
 }
@@ -167,7 +169,7 @@ map_layer: germany-regions {
 # Match on state name (e.g. 'Uttar Pradesh')   #
 ################################################
 
-map_layer: india-states {
+map_layer: india_states {
   file: "india-states.json"
   property_key: "NAME_1"
 }
@@ -176,7 +178,7 @@ map_layer: india-states {
 # Match on county name (e.g. 'Dublin')         #
 ################################################
 
-map_layer: ireland-counties {
+map_layer: ireland_counties {
   file: "ireland-counties.json"
   property_key: "NAME_1"
 }
@@ -185,7 +187,7 @@ map_layer: ireland-counties {
 # Match on province name (e.g. 'Ravenna')      #
 ################################################
 
-map_layer: italy-provinces {
+map_layer: italy_provinces {
   file: "italy-provinces.json"
   property_key: "NAME_2"
 }
@@ -194,7 +196,7 @@ map_layer: italy-provinces {
 # Match on region name (e.g. 'Emilia-Romagna') #
 ################################################
 
-map_layer: italy-regions {
+map_layer: italy_regions {
   file: "italy-regions.json"
   property_key: "NAME_1"
 }
@@ -203,7 +205,7 @@ map_layer: italy-regions {
 # Match on city name (e.g. 'Sluis')            #
 ################################################
 
-map_layer: nl-gemeentegrenzen-2016 {
+map_layer: netherlands_cities {
   file: "nl-gemeentegrenzen-2016.json"
   property_key: "GM_NAAM"
 }
@@ -212,7 +214,7 @@ map_layer: nl-gemeentegrenzen-2016 {
 # Match on county name (e.g. 'Buskerud')       #
 ################################################
 
-map_layer: norway-counties {
+map_layer: norway_counties {
   file: "norway-counties.json"
   property_key: "NAME_1"
 }
@@ -221,7 +223,7 @@ map_layer: norway-counties {
 # Match on province name (e.g. 'Masovian')     #
 ################################################
 
-map_layer: poland-provinces {
+map_layer: poland_provinces {
   file: "poland-provinces.json"
   property_key: "NAME_1"
 }
@@ -230,7 +232,7 @@ map_layer: poland-provinces {
 # Match on district name (e.g. 'Faro')         #
 ################################################
 
-map_layer: portugal-districts {
+map_layer: portugal_districts {
   file: "portugal-districts.json"
   property_key: "NAME_1"
 }
@@ -239,7 +241,7 @@ map_layer: portugal-districts {
 # Match on county name (e.g. 'Brașov')         #
 ################################################
 
-map_layer: romania-counties {
+map_layer: romania_counties {
   file: "romania-counties.json"
   property_key: "NAME_1"
 }
@@ -248,7 +250,7 @@ map_layer: romania-counties {
 # Match on province name (e.g. 'Western Cape') #
 ################################################
 
-map_layer: south-africa-provinces {
+map_layer: south_africa_provinces {
   file: "south-africa-provinces.json"
   property_key: "NAME_1"
 }
@@ -257,7 +259,7 @@ map_layer: south-africa-provinces {
 # Match on province name (e.g. 'Barcelona')    #
 ################################################
 
-map_layer: spain-province {
+map_layer: spain_province {
   file: "spain-province.json"
   property_key: "NAME_2"
 }
@@ -266,7 +268,7 @@ map_layer: spain-province {
 # Match on county name (e.g. 'Norrbotten')     #
 ################################################
 
-map_layer: sweden-counties {
+map_layer: sweden_counties {
   file: "sweden-counties.json"
   property_key: "NAME_1"
 }
@@ -284,7 +286,7 @@ map_layer: turkey_provinces {
 # Match on county name (e.g. 'Hertfordshire')  #
 ################################################
 
-map_layer: uk-counties {
+map_layer: uk_counties {
   file: "uk-counties.json"
   property_key: "NAME_2"
 }
