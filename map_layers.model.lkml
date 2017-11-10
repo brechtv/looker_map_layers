@@ -1,4 +1,5 @@
-connection: "thelook"
+# This file contains pre-defined map_layers.
+# Add it to any model with include: map_layers.base.lkml
 
 ################################################
 # GLOBAL                                       #

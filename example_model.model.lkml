@@ -1,5 +1,5 @@
 # INCLUDING PRE-DEFINED MAP LAYERS
-# include: "map_layers.model"
+# include: "map_layers.base.lkml"
 
 connection: "thelook"
 
